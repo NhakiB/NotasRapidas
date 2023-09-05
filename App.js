@@ -42,9 +42,9 @@ export default function App() {
     setNotes(updatedNotes);
   };
 
-  // useEffect(() => {
-  //   getNotes();
-  // }, [notes]);
+  useEffect(() => {
+    getNotes();
+  }, [notes]);
 
   // Tela inicial
   function Home({ navigation }) {
